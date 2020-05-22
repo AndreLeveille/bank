@@ -1,0 +1,4 @@
+<h1>Accounts#index</h1>
+<h2><%= current_user.email %></h2>
+
+<%= button_to 'Logout', destroy_user_session_path, method: :delete %>
